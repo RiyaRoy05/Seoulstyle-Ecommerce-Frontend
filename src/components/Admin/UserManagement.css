@@ -1,0 +1,111 @@
+.user-management {
+    padding: 20px;
+    margin-left: 380px;
+  }
+  
+  .user-management-h1 {
+    font-size: 2rem;
+    margin-left: 400px;
+    margin-top: 110px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    width: 120%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .user-table {
+    width: 120%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .user-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .user-table td button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .delete-btn {
+    background-color: #ff6666;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #ff3333;
+  }
+  
+  .activate-btn {
+    background-color: #66ff66;
+    color: white;
+  }
+  
+  .activate-btn:hover {
+    background-color: #33cc33;
+  }
+  
+  .deactivate-btn {
+    background-color: #ffcc00;
+    color: white;
+  }
+  
+  .deactivate-btn:hover {
+    background-color: #ff9900;
+  }
+  
+
+  @media (max-width: 1300px) {
+    .user-management-h1{
+      margin-left: 300px;
+    }
+    .search-bar{
+      width: 110%;
+    }
+    .user-table{
+      width: 110%;
+    }
+  }
+
+  @media (max-width: 1280px) {
+    .user-management-h1{
+      margin-left: 300px;
+    }
+    .search-bar{
+      width: 100%;
+    }
+    .user-table{
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .user-management{
+      margin-left: 300px;
+    }
+    .user-management-h1{
+      margin-left: 200px;
+      font-size: 22px;
+    }
+    .search-bar{
+      width: 100%;
+    }
+    .user-table{
+      width: 100%;
+    }
+  }

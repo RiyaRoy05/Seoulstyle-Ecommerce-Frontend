@@ -1,0 +1,22 @@
+.season-head{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.seasonimgs{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.season-imgs{
+    width: 500px;
+    height: 500px;
+}
+
+.season-heading-img{
+    margin-top: 20px;
+    font-weight: 400;
+    text-align: center;
+}

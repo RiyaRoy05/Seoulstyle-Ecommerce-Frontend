@@ -1,0 +1,46 @@
+.seller-header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    background-color: white; 
+  }
+
+  .seller-header-logo{
+    display: flex;
+  }
+  
+  .sellerheader-h3{
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 620px;
+  }
+
+  .sellerheader-h4{
+    font-weight: 400;
+    margin-left: 620px;
+  }
+  
+  .seller-header-search{
+    width: 200px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    margin-left: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    background: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"%3E%3Ccircle cx="11" cy="11" r="8"%3E%3C/circle%3E%3Cline x1="21" y1="21" x2="16.65" y2="16.65"%3E%3C/line%3E%3C/svg%3E') no-repeat 95% center;
+    background-size: 20px; 
+    outline: none;
+    transition: border-color 0.3s;
+  }
+ 
+  @media (max-width: 674px) {
+    .seller-header-logo{
+      display: none;
+    }
+  }

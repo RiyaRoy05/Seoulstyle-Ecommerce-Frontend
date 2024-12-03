@@ -1,0 +1,205 @@
+.products-page {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .products-page h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    margin-top: 60px;
+    font-weight: 200;
+  }
+  
+  .para {
+    font-size: 1.2rem;
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+  }
+  
+  
+.homeproducts-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    padding: 10px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 8px;
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-card img {
+    background-size: cover; 
+    object-fit: cover;
+    height: 250px;
+    width: 400px;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .product-card .price {
+    font-size: 1.2rem;
+    margin-right: 50px;
+    color: #e74c3c;
+    margin-bottom: 5px;
+  }
+  
+  .product-card .rating {
+    font-size: 1rem;
+    color: #555;
+    margin-right: 50px;
+  }
+
+  .testimonials {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 90px;
+  }
+  
+  .testimonials h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  .testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial {
+    background-color: #fff;
+    padding: 20px;
+    width: 550px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .testimonial:hover {
+    transform: translateY(10px);
+  }
+  
+  .testimonial-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin-left: 100px;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-author {
+    font-size: 1rem;
+    margin-left: 250px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .cta-section {
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 50px auto;
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .cta-section h2 {
+    font-size: 2rem;
+    color: #333; 
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .cta-section p {
+    font-size: 1.1rem;
+    color: #555; 
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .cta-button {
+    background-color: #ff6f61; 
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cta-button:hover {
+    background-color: #ff3d30; 
+    transform: scale(1.05); 
+  }
+  
+  .cta-button:active {
+    transform: scale(0.98); 
+  }
+  
+  .cta-section:hover {
+    transform: translateY(-10px); 
+  }
+
+  @media all and (max-width: 768px) {
+    .homeproducts-grid{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  
+  @media all and (max-width: 480px) {
+    .homeproducts-grid{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+
+  @media all and (max-width: 360px) {
+    .product-card{
+      width: 600px;
+      margin-left: 400px;
+    }
+
+    .testimonials{
+      width: 1300px;
+    }
+
+    .cta-section{
+      margin-left: 400px;
+    }
+  }

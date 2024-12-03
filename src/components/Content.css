@@ -1,0 +1,87 @@
+.contents{
+    background-image: url('../assests/image.jpg');
+    background-size: cover; 
+    background-position: center;
+    width: 1519.5px;
+    height: 729px;
+    display: flex; 
+}
+
+.imp {
+    background-color: rgba(255, 255, 255, 0.5); 
+    width: 780px;
+}
+
+h1 {
+    color: black; 
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 3rem; 
+    z-index: 1; 
+}
+
+p{
+    margin-right: 1000px;color: black; 
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 170px;
+    text-align: center; 
+    z-index: 1; 
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #090807;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 12px;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 230px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 20px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  a{
+    color: white;
+  }
+
+  @media all and (max-width: 360px) {
+    .imp{
+      width: 670px;
+    }
+
+    .button{
+      margin-left: 190px;
+    }
+  }

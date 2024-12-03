@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+  }
+  
+  .seller-page-container {
+    display: flex;
+    margin-top: 82px;
+  }
+  
+  .seller-image-section img {
+    height: 890px;
+    width: 950px;
+  }
+  
+  .seller-form-container {
+    width: 520px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    animation: slideIn 0.5s ease-in-out;
+  }
+  
+  .seller-form-card h2 {
+    font-size: 1.8rem;
+    margin-top: 50px;
+    margin-left: 150px;
+    color: #333;
+  }
+  
+  .seller-form-card p {
+    color: #777;
+    width: 500px;
+    font-size: 0.9rem;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  
+  .seller-registration-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .seller-form-group {
+    margin-top: 30px;
+    width: 450px;
+    margin-left: 50px;
+  }
+  
+  .seller-form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .seller-form-group input,
+  .seller-form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
+  .seller-form-group textarea {
+    resize: none;
+  }
+  
+  .seller-form-group input:focus,
+  .seller-form-group textarea:focus {
+    border-color: #2575fc;
+    outline: none;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+  }
+  
+  .seller-submit-btn {
+    background-color: #2575fc;
+    color: white;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 450px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .seller-submit-btn:hover {
+    background-color: #1b5bc2;
+  }
+  
+  .seller-form-footer {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .seller-form-footer p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .seller-form-footer a {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .seller-form-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @media all and (max-width: 1300px) {
+
+    .seller-form-container{
+      width: 550px;
+    }
+  }
+  
+
+  @media all and (max-width: 1200px) {
+
+    .seller-image-section img{
+      width: 870px;
+      height: 820px;
+    }
+  }
+  
+  @media all and (max-width: 980px) {
+
+    .seller-image-section img{
+      width: 800px;
+      height: 1020px;
+    }
+
+    .seller-form-container{
+      margin-top: 100px;
+      width: 550px;
+    }
+  }
+
+  @media all and (max-width: 768px) {
+
+    .seller-image-section img{
+      width: 700px;
+      height: 1140px;
+    }
+
+    .seller-form-container{
+      margin-top: 100px;
+      width: 590px;
+    }
+  }
+  
+  @media all and (max-width: 674px) {
+    .seller-image-section img{
+      width: 600px;
+      height: 1260px;
+    }
+
+    .seller-form-container{
+      margin-top: 100px;
+      width: 590px;
+    }
+  }
+
+  @media all and (max-width: 480px) {
+    .seller-image-section img{
+      display: none;
+    }
+  }
+  
+  

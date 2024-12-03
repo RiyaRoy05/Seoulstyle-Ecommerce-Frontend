@@ -1,0 +1,138 @@
+.help-page {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f8f9fd, #e4ebf5);
+    padding: 1px 1px;
+    min-height: 100vh;
+    width: 1500px;
+  }
+  
+  .help-container {
+    max-width: 1400px;
+    height: 1000px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .help-heading {
+    font-size: 2.5rem;
+    padding: 50px;
+    padding-left: 200px;
+    margin-top: 150px;
+    color: #34495e;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .faq-section, .contact-section, .feedback-section {
+    margin-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .help-h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .help-ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .helpli {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+ .helpli strong {
+    color: #34495e;
+    font-size: 1.2rem;
+  }
+  
+  .help-p {
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #7f8c8d;
+    line-height: 1.6;
+  }
+  
+  .help-contactus {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section p, .feedback-section p {
+    color: #7f8c8d;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-btn, .submit-btn {
+    background: linear-gradient(90deg, #3498db, #2980b9);
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s, background 0.3s;
+  }
+  
+  .contact-btn:hover, .submit-btn:hover {
+    background: linear-gradient(90deg, #2980b9, #1c6692);
+    transform: translateY(-3px);
+  }
+  
+  .feedback-form textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .feedback-form textarea:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+  }
+  
+  .feedback-form button {
+    display: block;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

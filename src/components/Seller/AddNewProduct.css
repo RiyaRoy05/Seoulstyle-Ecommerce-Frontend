@@ -1,0 +1,87 @@
+.add-product-container {
+    padding: 2rem;
+    margin-top: 120px;
+    margin-left: 350px;
+  }
+  
+  .addproduct-h2{
+    margin-left: 400px;
+    font-size: 29px;
+    font-weight: 400;
+    color: #333;
+  }
+  
+  .add-product-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+  }
+  
+  .sellerform-group {
+    display: flex;
+    margin-top: 40px;
+    width: 700px;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  input,
+  textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .add-product-btn {
+    padding: 0.7rem;
+    font-size: 1rem;
+    width: 200px;
+    margin-left: 250px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-product-btn:hover {
+    background-color: #45a049;
+  }
+  
+  @media all and (max-width: 1300px) {
+    .add-product-container{
+      margin-left: 250px;
+    }
+  }
+
+  @media all and (max-width: 1280px) {
+    .add-product-container{
+      margin-left: 230px;
+    }
+  }
+
+  @media all and (max-width: 980px) {
+    .add-product-container{
+      margin-left: 270px;
+    }
+
+    .addproduct-h2{
+      margin-left: 300px;
+    }
+
+    input, textarea{
+      width: 500px;
+    }
+  }

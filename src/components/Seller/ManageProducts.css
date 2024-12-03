@@ -1,0 +1,92 @@
+.manage-products {
+    padding: 20px;
+    margin-left: 400px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .manade-product-h1{
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 120px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .sellerproducts-grid {
+    margin-top: 50px;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding-left: 20px;
+  }
+  
+  .sellerproduct-card {
+    border: 1px solid #ddd;
+    width: 440px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .sellerproduct-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .sellerproduct-image {
+    object-fit: cover;
+  }
+  
+  .sellerproduct-details {
+    padding: 15px;
+  }
+  
+  .sellerproduct-details h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .sellerproduct-details p {
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .sellerproduct-actions {
+    margin-top: 10px;
+  }
+  
+  .update-btn,
+  .delete-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .update-btn {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .update-btn:hover {
+    background-color: #1976d2;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+
+  @media (max-width: 1300px) {
+    .sellerproducts-grid{
+      margin-right: 100px;
+    }
+  }
+  
